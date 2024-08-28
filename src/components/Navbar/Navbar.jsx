@@ -10,7 +10,6 @@ import {
 import './Navbar.css';
 
 export const NavBar = () => {
-
   const [activeLink, setActiveLink] = useState('home');
   const [scrolled, setScrolled] = useState(false);
 
