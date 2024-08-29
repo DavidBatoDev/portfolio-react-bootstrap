@@ -5,6 +5,7 @@ import { NavBar } from './components/Navbar/Navbar'
 import { Banner } from './components/Banner/Banner'
 import { Skills } from './components/Skills/Skills'
 import { Projects } from './components/Projects/Projects'
+import { Footer } from './components/Footer/Footer'
 
 function App() {
 
@@ -14,8 +15,7 @@ function App() {
       <Banner />
       <Skills />
       <Projects />
-      <h1>Contact</h1>
-      <h1>Footer</h1>
+      <Footer />
     </div>
   )
 }
