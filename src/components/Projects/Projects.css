@@ -103,3 +103,24 @@
   font-size: 16px;
   color: #B8B8B8;
 }
+
+/* Media queries for responsive text sizing */
+@media (max-width: 768px) {
+  .proj-txtx h4 {
+    font-size: 20px;  /* Smaller font size for mobile */
+  }
+
+  .proj-txtx span {
+    font-size: 14px;  /* Smaller font size for mobile */
+  }
+}
+
+@media (min-width: 769px) {
+  .proj-txtx h4 {
+    font-size: 24px;  /* Default font size for desktop */
+  }
+
+  .proj-txtx span {
+    font-size: 16px;  /* Default font size for desktop */
+  }
+}

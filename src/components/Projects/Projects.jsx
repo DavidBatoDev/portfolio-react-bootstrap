@@ -21,6 +21,11 @@ export const Projects = () => {
       description: "Built using React as a Frontend, Uses Firebase Storage, Database and Athentication",
       imgUrl: projImg1,
     },
+    {
+      title: "Blog Website (Technoquatro)",
+      description: "Built using React as a Frontend, Uses Firebase Storage, Database and Athentication",
+      imgUrl: projImg1,
+    },
   ];
 
   return (
@@ -30,7 +35,10 @@ export const Projects = () => {
           <Col size={12}>
             <div className="projects-section">
               <h2>Projects</h2>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              <p>
+                I've gained hands-on experience in full stack web development, working on various projects that showcase my skills across the entire web development spectrum. To explore more of my work, feel free to visit my GitHub: <a href="https://github.com/DavidBatoDev?tab=repositories">DavidBatoDev</a>, 
+                where you can see a range of projects I've contributed to and developed.
+              </p>
               <Tab.Container id="projects-tabs" defaultActiveKey="first">
                 <Tab.Content>
                   <Tab.Pane eventKey="first">

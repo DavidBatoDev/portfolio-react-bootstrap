@@ -5,35 +5,46 @@ import './AboutMe.css';
 
 export const AboutMe = () => {
   return (
-    <section className="about-me">
+    <section className="about-me"  id="about-me">
       <Container>
         <Row>
           {/* Education Section */}
           <Col md={6} className="education-section">
             <h2 className="section-title">Education</h2>
             <div className="timeline">
-              <div className="timeline-item">
+            <div className="timeline-item">
                 <div className="timeline-icon"></div>
                 <div className="timeline-content">
-                  <h3>High School</h3>
-                  <p><strong>School Name:</strong> XYZ High School</p>
-                  <p><strong>Course:</strong> Science Stream</p>
-                  <p><strong>Year:</strong> 2015 - 2018</p>
+                <h3>College</h3>
+                  <p><strong>University:</strong>Polytechnic University of the Philippines - Manila</p>
+                  <p><strong>Course:</strong>Bachelor of Science in Computer Engineering (BSCpE)</p>
+                  <p><strong>Year:</strong> 2023 - Present</p>
                   <p className="description">
-                    Participated in various science competitions and held the position of class representative.
-                  </p>
+                    CHED Merit Scholar and was consistent President Lister for the freshmen year
+                </p>
                 </div>
               </div>
               <div className="timeline-item">
                 <div className="timeline-icon"></div>
                 <div className="timeline-content">
-                  <h3>College</h3>
-                  <p><strong>University:</strong> ABC University</p>
-                  <p><strong>Course:</strong> BSc in Computer Science</p>
-                  <p><strong>Year:</strong> 2018 - 2022</p>
-                  <p className="description">
-                    Graduated with honors, focusing on software development and data science. Completed several key projects.
-                  </p>
+                    <h3>Senior High School</h3>
+                    <p><strong>University:</strong>Rosario Institute</p>
+                    <p><strong>Course:</strong>Accountancy Business and Management (ABM)</p>
+                    <p><strong>Year:</strong> 2021 - 2023</p>
+                    <p className="description">
+                        Graduated with high honors with proficiency in Business Finance
+                    </p>
+                </div>
+              </div>
+              <div className="timeline-item">
+                <div className="timeline-icon"></div>
+                <div className="timeline-content">
+                    <h3>Junior High School</h3>
+                    <p><strong>University:</strong>St. Joseph's College</p>
+                    <p><strong>Year:</strong> 2017 - 2021</p>
+                    <p className="description">
+                        Graduated with honors and was a consistent top student in the class
+                    </p>
                 </div>
               </div>
             </div>
@@ -47,11 +58,11 @@ export const AboutMe = () => {
                 <FaLaptopCode className="experience-icon" />
                 <Card className="experience-card">
                   <Card.Body>
-                    <Card.Title>Software Developer</Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">Tech Corp</Card.Subtitle>
-                    <Card.Text><strong>Time:</strong> 2022 - Present</Card.Text>
+                    <Card.Title>ElectrifAI</Card.Title>
+                    <Card.Subtitle className="mb-2 text-gray ">Product Head | Software Developer</Card.Subtitle>
+                    <Card.Text><strong>Time:</strong> 2024 - Present</Card.Text>
                     <Card.Text>
-                      Developed full-stack web applications using React and Node.js. Collaborated with cross-functional teams to deliver projects on time.
+                        Contributing to the developement of the company mobile application using react native and firebase.
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -60,11 +71,11 @@ export const AboutMe = () => {
                 <FaBriefcase className="experience-icon" />
                 <Card className="experience-card">
                   <Card.Body>
-                    <Card.Title>Internship</Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">Startup Inc</Card.Subtitle>
+                    <Card.Title>PUP - Web development OJT</Card.Title>
+                    <Card.Subtitle className="mb-2 text-gray">Web Development Intern</Card.Subtitle>
                     <Card.Text><strong>Time:</strong> Summer 2021</Card.Text>
                     <Card.Text>
-                      Assisted in developing mobile applications and gained hands-on experience in Agile methodologies.
+                        Learn Technologies such as PHPMysql, Apache Cordova, xml etc. 
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -73,11 +84,11 @@ export const AboutMe = () => {
                 <FaUserGraduate className="experience-icon" />
                 <Card className="experience-card">
                   <Card.Body>
-                    <Card.Title>Freelance Developer</Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">Self-Employed</Card.Subtitle>
-                    <Card.Text><strong>Time:</strong> 2020 - 2021</Card.Text>
+                    <Card.Title>AWS Cloud Club - PUP</Card.Title>
+                    <Card.Subtitle className="mb-2 text-gray ">Junior Backend Developer</Card.Subtitle>
+                    <Card.Text><strong>Time:</strong> 2023 - 2024</Card.Text>
                     <Card.Text>
-                      Worked on various freelance projects including websites and small business management tools.
+                        Honed my skills in backend development and learned how to develop applications through various workshop.
                     </Card.Text>
                   </Card.Body>
                 </Card>

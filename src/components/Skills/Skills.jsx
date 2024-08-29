@@ -34,7 +34,9 @@ export const Skills = () => {
                     <div className="col-12">
                         <div className="skill-bx wow zoomIn relative">
                             <h2>Tools & Technologies</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                            <p>
+                                Technologies and stacks I have utilized and am comfortable and familiar working with.                         
+                            </p>
 
                             <button onClick={() => setListMode(!listMode)} className="toggle-btn">
                                 {!listMode ? <AppsIcon /> : <ViewCarouselIcon />}
