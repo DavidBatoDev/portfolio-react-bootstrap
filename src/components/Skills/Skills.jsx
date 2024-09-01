@@ -52,12 +52,24 @@ export const Skills = () => {
                                         <h5>CSS3</h5>
                                     </div>
                                     <div className="item">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
+                                        <h5>Tailwind</h5>
+                                    </div>
+                                    <div className="item">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" />
+                                    <h5>BootStrap</h5>
+                                    </div>
+                                    <div className="item">
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript Logo" />
                                         <h5>JavaScript</h5>
                                     </div>
                                     <div className="item">
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python Logo" />
                                         <h5>Python</h5>
+                                    </div>
+                                    <div className='item'>
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" alt="PHP Logo" />
+                                        <h5>PHP</h5>
                                     </div>
                                     <div className="item">
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React Logo" />
@@ -75,9 +87,18 @@ export const Skills = () => {
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" alt="Flask Logo" />
                                         <h5>Flask</h5>
                                     </div>
+                                    <div className='item'>
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" />
+                                    <h5>MySQL</h5>
+                                    </div>
                                     <div className="item">
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" alt="MongoDB Logo" />
                                         <h5>MongoDB</h5>
+                                    </div>
+               
+                                    <div className="item">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-plain.svg" alt="Firebase Logo" />
+                                        <h5>Firebase</h5>
                                     </div>
                                 </Carousel>
                             </div>
@@ -92,12 +113,24 @@ export const Skills = () => {
                                         <span>CSS3</span>
                                     </li>
                                     <li>
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
+                                        <span>Tailwind</span>
+                                    </li>
+                                    <li>
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" />
+                                        <span>BootStrap</span>
+                                    </li>
+                                    <li>
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript Logo" />
                                         <span>JavaScript</span>
                                     </li>
                                     <li>
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python Logo" />
                                         <span>Python</span>
+                                    </li>
+                                    <li>
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" alt="PHP Logo" />
+                                        <span>PHP</span>
                                     </li>
                                     <li>
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React Logo" />
@@ -116,8 +149,16 @@ export const Skills = () => {
                                         <span>Flask</span>
                                     </li>
                                     <li>
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" />
+                                        <span>MySQL</span>
+                                    </li>
+                                    <li>
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" alt="MongoDB Logo" />
                                         <span>MongoDB</span>
+                                    </li>
+                                    <li>
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-plain.svg" alt="Firebase Logo" />
+                                        <span>Firebase</span>
                                     </li>
                                 </ul>
                             </div>
