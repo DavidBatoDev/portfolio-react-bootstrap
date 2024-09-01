@@ -16,9 +16,9 @@ export const AboutMe = () => {
                 <div className="timeline-icon"></div>
                 <div className="timeline-content">
                 <h3>College</h3>
-                  <p><strong>University:</strong>Polytechnic University of the Philippines - Manila</p>
-                  <p><strong>Course:</strong>Bachelor of Science in Computer Engineering (BSCpE)</p>
-                  <p><strong>Year:</strong> 2023 - Present</p>
+                  <p><strong>University: </strong>Polytechnic University of the Philippines - Manila</p>
+                  <p><strong>Course: </strong>Bachelor of Science in Computer Engineering (BSCpE)</p>
+                  <p><strong>Year: </strong> 2023 - Present</p>
                   <p className="description">
                     CHED Merit Scholar and was consistent President Lister for the freshmen year
                 </p>
@@ -28,9 +28,9 @@ export const AboutMe = () => {
                 <div className="timeline-icon"></div>
                 <div className="timeline-content">
                     <h3>Senior High School</h3>
-                    <p><strong>University:</strong>Rosario Institute</p>
-                    <p><strong>Course:</strong>Accountancy Business and Management (ABM)</p>
-                    <p><strong>Year:</strong> 2021 - 2023</p>
+                    <p><strong>School: </strong>Rosario Institute</p>
+                    <p><strong>Course: </strong>Accountancy Business and Management (ABM)</p>
+                    <p><strong>Year: </strong> 2021 - 2023</p>
                     <p className="description">
                         Graduated with high honors with proficiency in Business Finance
                     </p>
@@ -40,8 +40,8 @@ export const AboutMe = () => {
                 <div className="timeline-icon"></div>
                 <div className="timeline-content">
                     <h3>Junior High School</h3>
-                    <p><strong>University:</strong>St. Joseph's College</p>
-                    <p><strong>Year:</strong> 2017 - 2021</p>
+                    <p><strong>School: </strong>Bagbag National High School</p>
+                    <p><strong>Year: </strong> 2017 - 2021</p>
                     <p className="description">
                         Graduated with honors and was a consistent top student in the class
                     </p>

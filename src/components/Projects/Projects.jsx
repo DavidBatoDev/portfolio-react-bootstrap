@@ -1,6 +1,10 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../../assets/img/project-img1.jpg";
+import projImg1 from "../../assets/img/proj1.png";
+import projImg2 from "../../assets/img/proj2.png";
+import projImg3 from "../../assets/img/proj3.png";
+import projImg4 from "../../assets/img/proj4.png";
+import projImg5 from "../../assets/img/proj5.png";
 import './Projects.css';
 
 export const Projects = () => {
@@ -10,21 +14,31 @@ export const Projects = () => {
       title: "Chat Application (ChatApp)",
       description: "Built using MERN stack, uses Socket.io for real-time chat functionality",
       imgUrl: projImg1,
+      link: "https://github.com/DavidBatoDev/chat-application-mongodb"
+    },
+    {
+      title: "Real-estate Website (DavidEstate)",
+      description: "Built using React as a Frontend, Express as a Backend, MongoDB for Database, JWT for Authentication, Redux for State Management",
+      imgUrl: projImg2,
+      link: "https://github.com/DavidBatoDev/real-estate-mongodb"
+    },
+    {
+      title: "Blog Website (Technoquatro)",
+      description: "Built using React as a Frontend, Uses Firebase Storage, Database and Athentication",
+      imgUrl: projImg3,
+      link: "https://github.com/DavidBatoDev/technoquatro-firebase"
     },
     {
       title: "E-commerce Website (Ecom)",
       description: "Built using MySQL, Express, React, Node.js, polishing my skills in state management",
-      imgUrl: projImg1,
+      imgUrl: projImg4,
+      link: "https://github.com/DavidBatoDev/ecommerce-mysql"
     },
     {
-      title: "Blog Website (Technoquatro)",
-      description: "Built using React as a Frontend, Uses Firebase Storage, Database and Athentication",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Blog Website (Technoquatro)",
-      description: "Built using React as a Frontend, Uses Firebase Storage, Database and Athentication",
-      imgUrl: projImg1,
+      title: "Student Curicullar Activity Manager (SCAM)",
+      description: "Built using Tkinter as a Frontend, Uses Flask Blueprint Structure, SQLAlchemy for Database, Websocket for real-time notes",
+      imgUrl: projImg5,
+      link: "https://github.com/DavidBatoDev/oop-scam-app"
     },
   ];
 
