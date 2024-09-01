@@ -5,7 +5,7 @@ import './AboutMe.css';
 
 export const AboutMe = () => {
   return (
-    <section className="about-me"  id="about-me">
+    <section className="about-me"  id="about">
       <Container>
         <Row>
           {/* Education Section */}
