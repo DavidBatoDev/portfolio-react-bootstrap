@@ -73,7 +73,7 @@ export const AboutMe = () => {
                   <Card.Body>
                     <Card.Title>PUP - Web development OJT</Card.Title>
                     <Card.Subtitle className="mb-2 text-gray">Web Development Intern</Card.Subtitle>
-                    <Card.Text><strong>Time:</strong> Summer 2021</Card.Text>
+                    <Card.Text><strong>Time:</strong> Summer 2024</Card.Text>
                     <Card.Text>
                         Learn Technologies such as PHPMysql, Apache Cordova, xml etc. 
                     </Card.Text>
