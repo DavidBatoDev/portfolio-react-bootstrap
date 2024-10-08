@@ -54,15 +54,15 @@ export const AboutMe = () => {
           <Col md={6} className="experience-section">
             <h2 className="section-title">Experience</h2>
             <div className="experience-timeline">
-              <div className="experience-item">
-                <FaLaptopCode className="experience-icon" />
+            <div className="experience-item">
+                <FaUserGraduate className="experience-icon" />
                 <Card className="experience-card">
                   <Card.Body>
-                    <Card.Title>ElectrifAI</Card.Title>
-                    <Card.Subtitle className="mb-2 text-gray ">Product Head | Software Developer</Card.Subtitle>
-                    <Card.Text><strong>Time:</strong> 2024 - Present</Card.Text>
+                    <Card.Title>AWS Cloud Club - Philippines</Card.Title>
+                    <Card.Subtitle className="mb-2 text-gray ">Backend Developer</Card.Subtitle>
+                    <Card.Text><strong>Time:</strong> October 2024 - Present</Card.Text>
                     <Card.Text>
-                        Contributing to the developement of the company mobile application using react native and firebase.
+                        Newly appointed Backend Devloper. Honed my skills in backend development and learned how to develop applications through various workshop within the club.
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -71,28 +71,29 @@ export const AboutMe = () => {
                 <FaBriefcase className="experience-icon" />
                 <Card className="experience-card">
                   <Card.Body>
-                    <Card.Title>PUP - Web development OJT</Card.Title>
-                    <Card.Subtitle className="mb-2 text-gray">Web Development Intern</Card.Subtitle>
-                    <Card.Text><strong>Time:</strong> Summer 2024</Card.Text>
+                    <Card.Title>PUP - ICTO</Card.Title>
+                    <Card.Subtitle className="mb-2 text-gray">Full Stack Developer</Card.Subtitle>
+                    <Card.Text><strong>Time:</strong> September 2024 - Present</Card.Text>
                     <Card.Text>
-                        Learn Technologies such as PHPMysql, Apache Cordova, xml etc. 
+                      Created and maintained the university's website and developed web applications for PUP Alumni Gradutes for DAP tracker reasearch.
                     </Card.Text>
                   </Card.Body>
                 </Card>
               </div>
               <div className="experience-item">
-                <FaUserGraduate className="experience-icon" />
+                <FaLaptopCode className="experience-icon" />
                 <Card className="experience-card">
                   <Card.Body>
-                    <Card.Title>AWS Cloud Club - PUP</Card.Title>
-                    <Card.Subtitle className="mb-2 text-gray ">Junior Backend Developer</Card.Subtitle>
-                    <Card.Text><strong>Time:</strong> 2023 - 2024</Card.Text>
+                    <Card.Title>ElectrifAI Sol'n PH</Card.Title>
+                    <Card.Subtitle className="mb-2 text-gray ">Product Head | Software Developer</Card.Subtitle>
+                    <Card.Text><strong>Time:</strong> July 2024 - Present</Card.Text>
                     <Card.Text>
-                        Honed my skills in backend development and learned how to develop applications through various workshop.
+                        Contributing to the developement of the company mobile application and website using react based technologies
                     </Card.Text>
                   </Card.Body>
                 </Card>
               </div>
+
             </div>
           </Col>
         </Row>

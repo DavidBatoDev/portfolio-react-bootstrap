@@ -5,16 +5,24 @@ import projImg2 from "../../assets/img/proj2.png";
 import projImg3 from "../../assets/img/proj3.png";
 import projImg4 from "../../assets/img/proj4.png";
 import projImg5 from "../../assets/img/proj5.png";
+import projImg6 from "../../assets/img/proj7.png";
 import './Projects.css';
 
 export const Projects = () => {
 
   const projects = [
+    
     {
       title: "Chat Application (ChatApp)",
       description: "Built using MERN stack, uses Socket.io for real-time chat functionality",
       imgUrl: projImg1,
       link: "https://github.com/DavidBatoDev/chat-application-mongodb"
+    },
+    {
+      title: "PUP Alumni Portal For Graduates (PUPAG)",
+      description: "Built using React as a Frontend, Uses PHP Laravel, MySql for Database, Websocket for real-time notification",
+      imgUrl: projImg6,
+      link: "https://github.com/DavidBatoDev/oop-scam-app"
     },
     {
       title: "Real-estate Website (DavidEstate)",

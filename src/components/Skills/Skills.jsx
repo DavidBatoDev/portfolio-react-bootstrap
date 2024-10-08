@@ -87,6 +87,13 @@ export const Skills = () => {
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" alt="Flask Logo" />
                                         <h5>Flask</h5>
                                     </div>
+
+                                    <div className="item">      
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" />
+
+                                        <h5>Laravel</h5>
+                                    </div>
+
                                     <div className='item'>
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" />
                                     <h5>MySQL</h5>
@@ -100,6 +107,8 @@ export const Skills = () => {
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-plain.svg" alt="Firebase Logo" />
                                         <h5>Firebase</h5>
                                     </div>
+                                    
+
                                 </Carousel>
                             </div>
                             <div className={listMode ? "list-skills" : "list-skills hide"}>
@@ -148,6 +157,10 @@ export const Skills = () => {
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" alt="Flask Logo" />
                                         <span>Flask</span>
                                     </li>
+                                    <div className="item">      
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" />
+                                        <h5>Laravel</h5>
+                                    </div>
                                     <li>
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" />
                                         <span>MySQL</span>
