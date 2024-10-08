@@ -22,7 +22,7 @@ export const Projects = () => {
       title: "PUP Alumni Portal For Graduates (PUPAG)",
       description: "Built using React as a Frontend, Uses PHP Laravel, MySql for Database, Websocket for real-time notification",
       imgUrl: projImg6,
-      link: "https://github.com/DavidBatoDev/oop-scam-app"
+      link: "https://github.com/DavidBatoDev/pup_alumni_portal"
     },
     {
       title: "Real-estate Website (DavidEstate)",
